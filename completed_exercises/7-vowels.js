@@ -13,7 +13,7 @@ function vowels(str) {
 
  let count = 0
 
- for(let char of str){
+ for(let char of str.toLowerCase()){
   if(vowelCheck.includes(char)) count++
  }
 
